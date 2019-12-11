@@ -1,23 +1,16 @@
 import React from "react";
 
+      
+//       {/* Display a button element rendering the data being passed down from the parent container on props */}
+   
 
 
-const NumberButton = props => {
-  
+const NumberButton = (props) => {
    return (
+       <button className="btn_number" onClick = {( ) => (
+         props.numArray(props.numberOutput)
+       )} >{props.numberOutput}</button>
+   );
+ };
 
-    <div>
-   <button className = "btn_number" onClick = {()=> props.numDisplay(props.value)}>
-     
-      {props.value}
-     
-      
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-      
-      </button>
-   </div>
-    
-  );
-};
-
-export default NumberButton;
+ export default NumberButton;
