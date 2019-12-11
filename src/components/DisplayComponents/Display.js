@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 
-const Display = () => {
+const Display = (props) => {
   return (
-    <div className="display">{0}</div>
+    <div className="display">{props.number}</div>
   );
 };
 

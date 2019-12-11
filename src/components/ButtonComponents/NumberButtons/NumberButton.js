@@ -5,7 +5,6 @@ import React from "react";
 const NumberButton = props => {
   
    return (
-      
 
     <div>
    <button className = "btn_number" onClick = {()=> props.numDisplay(props.value)}>
