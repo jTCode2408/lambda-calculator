@@ -12,7 +12,6 @@ const Specials = props => {
 
   const specialArray = specialState.map(e => ( 
     <SpecialButton key={e}
-    className={e}
     value={e}
     specialDisplay = {props.specialDisplay}/>
   ));

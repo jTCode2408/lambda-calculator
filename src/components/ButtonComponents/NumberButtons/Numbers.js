@@ -12,11 +12,12 @@ import { numbers } from '../../../data'
 
 const Numbers = props => {
   // STEP 2 - add the imported data to state
-  const [numberState] = useState(numbers);
+  const [numberState, setNumberState] = useState(numbers);
   // console.log(numberButtons);
 
   const numberArray = numberState.map(e => (
-          <NumberButton key={e} 
+          <NumberButton 
+          key={e} 
           className={e}
           value = {e}
           numDisplay = {props.numDisplay}/>
