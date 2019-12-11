@@ -1,8 +1,10 @@
 import React, {useState} from "react";
 
-const Display = ({displayText}) => {
-  return <div className="display">{displayText}</div>;
+const Display = () => {
+  return (
+    <div className="display">{0}</div>
+  );
 };
 
-export default Display;
 
+export default Display;

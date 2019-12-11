@@ -21,6 +21,7 @@ function App() {
   return (
     <div className="container">
       <Logo />
+      <Display />
       <div className="App">
         <div>
         <Numbers />
@@ -28,7 +29,6 @@ function App() {
         <Specials />
         </div>
         
-        <Display />
 
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
